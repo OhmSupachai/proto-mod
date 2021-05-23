@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-import Navbar from './Navbar'
+import Review from './Review';
+
 
 
 function App() {
   return (
     <div class="container-fluid">
-      <Navbarx />
+      <Review />
     </div>
   )
 }
 
 export default App;
 
-function Navbarx() {
-  return(
-    <div>
-      <Navbar />
-    </div>
-  )
-}
+
