@@ -5,14 +5,21 @@ function Review() {
     return (
 
         <div>
-            
+
             <form >
-                <input id="user_input" type="text" name="name"></input><br></br>
-                
+                <input id="1" type="radio" name="grade" value="A" ></input>A
+                <input id="2" type="radio" name="grade" value="B" ></input>B
+                <input id="3" type="radio" name="grade" value="C" ></input>C <br></br>
+                <input id="0" type="text" name="name"></input><br></br>
+
+
 
             </form>
-            <input type="submit" onClick={showMessage} ></input>
-                <p>You input: <span id="display"></span></p>
+            <input id="submit" type="submit" onClick={showMessage} ></input>
+            <p>You input: <span id="display"></span>
+                <span id="display1"></span>
+                <span id="display2"></span>
+                <span id="display3"></span></p>
 
         </div>
     )
